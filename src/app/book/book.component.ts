@@ -6,7 +6,7 @@ import { CommonModule } from '@angular/common';
 @Component({
   selector: 'app-book',
   standalone: true,
-  imports: [MatCardModule, CommonModule],
+  imports: [MatCardModule,CommonModule],
   templateUrl: './book.component.html',
   styleUrl: './book.component.css'
 })
@@ -16,3 +16,5 @@ export class BookComponent
   @Input() content!:Book; 
 };
 
+  @Input() content!:Book;
+}
